@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Ads</title>
+	  <!-- Custom fonts for this theme -->
+	 <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+	 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	 <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+   <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-auth.js"></script>
+	  <!-- Theme CSS -->
+	 <link href="css/bootstrap-rtl.css" rel="stylesheet"> 
+	 <link href="style.css" rel="stylesheet"> 
+</head>
+<body id="page-top">
+
+  <!-- Navigation -->
+  <header class="navbar navbar-expand-lg bg-secondary " id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="image/logo.png" width="140%"></a>
+       
+</div>
+</header>
+<!-- start login Section -->
+  <section class="page-section" id="contact">
+    <div class="container">
+
+      <!-- Contact Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">تسجيل الدخول</h2>
+
+      <!-- Contact Section Form -->
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+
+          <form name="sentMessage" id="contactForm" novalidate="novalidate">
+            <div class="control-group">
+              <div class="form-group  controls mb-0 pb-2">
+                <label id="labeL">البريد الإلكتروني</label>
+                <input class="form-control your-email" id="input_border" type="email" required="required" data-validation-required-message="الرجاء إدخال البريد الإلكتروني">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group controls mb-0 pb-2">
+                <label id="labeL">كلمة المرور</label>
+                <input class="form-control your-pass" id="input_border" type="password" required="required" data-validation-required-message="الرجاء إدخال كلمة المرور">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+          
+                <a href="#" id="forget_pass">هل نسيت كلمة المرور؟</a> <br>
+                <p id="create">ليس لديك حساب ؟</p> <a  href="signup.html" id="create">تسجيل </a>
+
+            </div>
+            
+            <br>
+            <div id="success"></div>
+            <div class="form-group">
+              <button onclick="signIn()" class="btn btn-primary btn-xl" id="sendMessageButton" type="submit" name="uname" >دخول</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </section>
+            
+    
+<!-- end login Section  -->
+
+<!-- start footer Section  -->
+  <footer class="footer text-center">
+    <div class="container">
+      <div class="row">
+
+        <!-- Footer Location -->
+        <div class=" col-lg-4 mb-5 mb-lg-0">
+        </div>
+        <div class=" col-lg-4 mb-5 mb-lg-0">
+          <h4 class=" mb-4">من نحن</h4>
+          <p class=" lead mb-0">كثيرًا ما يواجهنا نحن كطلاب صعوبة في إحصاء الفعاليات والدورات التي تقيمها الجامعةوفي معظم الأحيان يكون النسيان هو المعضلة الأكبر.
+
+<br> 
+
+فمن هذا المنطلق ظهرت فكرة إنشاء موقع خاص بعرض الإعلانات والفعاليات واللقاءات مع خاصية التذكير.   </p>
+        </div>
+        <div class=" col-lg-4 mb-5 mb-lg-0">
+        </div>
+
+      </div>
+    </div>
+  </footer>
+<!-- end footer Section  -->
+
+  <!-- Copyright Section -->
+  <section class="copyright py-4 text-center text-white">
+    <div class="container">
+      <small>جميع الحقوق محفوظة  &copy; UNIEvents</small>
+    </div>
+  </section>
+  <script src="js/signin.js"></script>
+<!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact Form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/freelancer.min.js"></script>
+</body>
+</html>
